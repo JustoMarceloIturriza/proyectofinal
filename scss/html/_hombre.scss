@@ -1,0 +1,25 @@
+/*Estilos para hombre*/
+
+main .textoshom {
+    text-align: center;
+  }
+  
+  section {
+    margin: 0px 60px;
+    padding: 30px;
+    background-color: #E6E6DD;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    div {
+      text-align: center;
+      margin: 10px;
+  
+      img {
+        width: 80%;
+      }
+    }
+  }
+  

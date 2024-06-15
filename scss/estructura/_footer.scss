@@ -1,0 +1,47 @@
+/*Estilos del Footer*/
+
+.footer {
+    background-color: #212121;
+    color: white;
+    padding: 20px 0;
+  }
+
+  .footerinformacion {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer h3 {
+    font-size: x-large;
+    margin-bottom: 10px;
+  }
+  
+  .infoContacto p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+  }
+  
+  .redesSociales a {
+    margin: 5px 0;
+    color: #7AB730;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1.5rem;
+  
+    &:hover {
+      color: blue;
+    }
+  }
+
+  .footer h4 {
+    font-size: x-large;
+    margin-bottom: 10px;
+  }
+  
+  .footer i {
+    margin-right: 10px;
+  }
+  

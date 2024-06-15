@@ -1,0 +1,39 @@
+
+/*Para hacerlo responsive*/
+
+@media (max-width:1023px){
+    
+    .encabezadoprincipal{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.indumentaria{
+    margin: 5vh;
+    font-size: 2rem;
+}
+
+.indumentaria h2 .indumentaria p{
+    font-size: inherit;
+}
+
+.contenedorIndumentaria{
+    grid-template-columns: 1fr 1fr;
+}
+
+.footerinformacion{
+    flex-direction: column;
+    text-align: center;
+}
+
+/*Movil*/
+
+@media (max-width:768px) {
+
+    .contenedorIndumentaria{
+        grid-template-columns: 1fr;
+    }
+
+}

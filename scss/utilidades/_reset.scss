@@ -1,0 +1,14 @@
+/*Reset*/
+/*variables utilizadas en el body*/
+
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+/*Estilos generales*/
+
+body {
+    background-color: $color-primary;
+    color: $color-negro;
+}

@@ -1,0 +1,39 @@
+ /*Estilos del main*/
+
+ .contenedorIndumentaria {
+    display: grid;
+    grid-template-columns: repeat(3, 1rf);
+    gap: 20px;
+  }
+  
+  .indumentarias {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+  
+    img {
+      max-width: 100%;
+    }
+    
+    p {
+      span {
+        color: brown;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+  
+      margin: 10px 0;
+    }
+  }
+  
